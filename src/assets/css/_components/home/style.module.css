@@ -1,0 +1,25 @@
+.applyNow {
+  background: linear-gradient(88.15deg, #173967 31.84%, #1eb4e0 100%);
+}
+
+.heading {
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.cta {
+  height: 44px;
+  border-radius: 5.09px;
+  border: 1.02px solid #FFFFFF !important;
+  background: transparent !important;
+}
+
+.cta:hover {
+    background-color: #fff !important;
+    color: #000;
+}

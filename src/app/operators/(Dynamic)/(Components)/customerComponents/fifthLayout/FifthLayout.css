@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user-table-containerst {
+    box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+    margin-top: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 176, 176);
+    flex-direction: column;
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.text-business-heading {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.user-table-containerst-2 {
+    box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+    margin-top: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-business {
+    display: flex;
+}
+
+.top-heading-accordion {
+    display: flex;
+}
+
+/* //Custom Accordion Style */
+.accordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+    padding: 15px;
+    background-color: rgb(23, 57, 104);
+    border-radius: 25px;
+}
+
+.item {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.question-heading {
+    font-size: 18px;
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.horizontal-line {
+    color: white;
+}
+
+.accordions {
+    display: flex;
+    flex-direction: column;
+    max-width: 96%;
+    min-width: 99%;
+}
+
+.accordions h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    border-bottom: 1px solid rgb(236, 235, 235);
+    border-radius: none;
+    color: #fff;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.accordion-item .accordion-item-title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.accordion-item-title:hover,
+.accordion-item input[type='checkbox']:checked~.accordion-item-title {
+    background: #456084b2 !important;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-item-title:active {
+    color: #fff;
+    background: #516e95b6 !important;
+}
+
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #3b0707;
+    padding: 10px 30px 20px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    /* Add transition */
+}
+
+.accordion-item input[type='checkbox'] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.accordion-item input[type='checkbox']:checked~.accordion-item-desc {
+    display: block;
+    max-height: 250px;
+    transition: max-height 0.3s ease-in-out;
+    /* Add transition */
+}
+
+.accordion-item input[type='checkbox']:checked~.accordion-item-title .icon:after {
+    content: '-';
+    font-size: 20px;
+}
+
+.accordion-item input[type='checkbox']~.accordion-item-title .icon:after {
+    content: '+';
+    font-size: 20px;
+}
+
+.accordion-item:first-child {
+    margin-top: 0;
+}
+
+.accordion-item:last-child {
+    border: 0;
+}
+
+.accordion-item .icon {
+    margin-left: 14px;
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        padding: 0 16px;
+    }
+
+    .accordion h1 {
+        font-size: 22px;
+    }
+
+    .faq-section__left {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .faq-section__right {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.accordion-kk {
+    width: 78vw;
+    background-color: white;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

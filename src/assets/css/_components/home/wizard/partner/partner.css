@@ -1,0 +1,306 @@
+/* //////////////Accordion css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main-container {
+  transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+}
+
+.form-one-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #173968 30%, #1fb9e5 100%);
+}
+
+.form-two-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #173968 30%, #1fb9e5 100%);
+}
+
+.left-section-container {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.info-section-container {
+  width: 400px;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.info-heading-text {
+  font-size: 32px;
+  color: white;
+}
+
+.info-heading-text h1 {
+  font-size: 32px;
+  color: white;
+}
+
+.info-paragraph-text {
+  font-size: 16px;
+  color: white;
+}
+
+.right-section-container {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* //form section */
+.form-section-container {
+  width: 568px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form-buttons-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-buttons-container .buttons-1 {
+  padding: 10px 48px 10px 48px;
+  background-color: white;
+  color: #173868;
+  border: 1px solid #173868;
+  border-radius: 3px;
+}
+
+.form-buttons-container .buttons-2 {
+  padding: 10px 30px 10px 30px;
+  background-color: #c95e19;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.pg-progress-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.calculation-span {
+  color: white;
+}
+
+.form-check {
+  display: flex;
+  gap: 30px;
+}
+
+/* //Accordian style */
+.faq {
+  background-color: "#173968";
+}
+
+.faq-section {
+  padding: 110px 0px;
+}
+
+.faq-section__head {
+  font-size: 2rem;
+  line-height: 40px;
+  color: #fff;
+}
+
+.faq-section__text {
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 52px;
+}
+
+.faq-section__left {
+  width: 50%;
+}
+
+.faq-section__right {
+  width: 50%;
+}
+
+.faq-section svg {
+  width: 16px;
+}
+
+.faq-section a {
+  color: #fff;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+
+.faq-section a:hover {
+  color: #c95e19;
+}
+
+.form-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 26px;
+  margin-top: 9px;
+}
+
+
+
+.accordion {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  /* height: 1000px !important; */
+  padding: 40px 85px 30px 97px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  /* height: 120vh; */
+  /* height: 25vh; */
+}
+
+.items {
+  background-color: white;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titles {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content {
+  color: black;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  padding-top: -20px;
+  padding-bottom: -10px;
+}
+
+.question-heading {
+  font-size: 18px;
+}
+
+.horizontal-line {
+  color: white;
+}
+
+.radio-first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-paragraph {
+  color: black;
+}
+
+.form-check-input {
+  border: 1px solid rgb(141, 135, 135);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* //form one radio styling */
+.form-one-radio {
+  margin-top: 30px;
+}
+
+.form-one-text-1 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #173968;
+}
+
+.form-one-text-2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #173968;
+  font-weight: 600;
+}
+
+/* //form two radio styling */
+.form-two-radio {
+  margin-top: 30px;
+}
+
+.form-two-text-1 {
+  font-size: 9.6px;
+  letter-spacing: 0.4px;
+  color: #173968;
+  margin-top: -30px;
+  padding: 0 20px;
+}
+
+.form-check-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-containerst {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.email-input-container {
+  margin: 10px;
+}
+.select-menu-containert{
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.custom-001{
+  border-radius: 0;
+  outline: none;
+  border-color: white;
+  padding: 0;
+}

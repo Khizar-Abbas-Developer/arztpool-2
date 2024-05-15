@@ -1,0 +1,35 @@
+.home-section-1-modal {
+  /* width: 340px; */
+  height: 470px;
+  background-color: white;
+}
+
+.homepagemodal-btn-1,
+.homepagemodal-btn-2 {
+  color: #fff;
+  box-shadow: unset;
+  color: #173968;
+  line-height: 24px;
+  border: 1px solid;
+  background-color: #fff;
+  padding: 15px 19px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-style: none !important;
+}
+.homepagemodal-btn-1 {
+  border-radius: 4px 0px 0px 4px;
+}
+.homepagemodal-btn-2 {
+  border-radius: 0px 4px 4px 0px;
+  padding: 15px 25px;
+}
+
+.homepagemodal-btn-2:hover {
+    background-color: #ed6d05 !important;
+    padding: 20px 27px;
+  }
+.homepagemodal-btn-1:hover {
+  background-color: #ed6d05 !important;
+  padding: 20px 27px;
+}

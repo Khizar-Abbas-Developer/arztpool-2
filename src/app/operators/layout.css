@@ -1,0 +1,72 @@
+
+.parent-div{
+    background-color: rgb(243,245,247);
+    color: black;
+}
+.main_container{
+    display: flex;
+    position: relative;
+}
+.fingerprint-icon{
+    font-size: 40px;
+}
+.fingerprint_div {
+    position: fixed;
+    bottom: 40px;
+    left: 30px;
+    background-color: rgb(0,64,89);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100%;
+    color: white;
+    z-index: 99999999999999;
+  }
+  .second-container{
+    box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+    margin-top: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(186, 176, 176);
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    border: 1px solid black;
+    gap: 6px;
+    cursor: pointer;
+}
+.heading-sm{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(46, 45, 45, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-first{
+    margin-bottom: 4px;
+}
+.btn-second{
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1.5px;
+}
+.body-container{
+    width: 83.7vw;
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,208 @@
+.faq {
+  background-color: "#173968" !important;
+}
+
+.faq-section {
+  padding: 110px 0px;
+}
+
+.faq-section__head {
+  font-size: 2rem;
+  line-height: 40px;
+  color: #fff;
+}
+
+.faq-section__text {
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 52px;
+}
+.faq-section__left {
+  width: 50%;
+}
+.faq-section__right {
+  width: 50%;
+}
+.faq-section svg {
+  width: 16px;
+}
+.faq-section a {
+  color: #fff;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+.faq-section a:hover {
+  color: #c95e19;
+}
+/* @media (max-width: 768px) {
+  .accordion {
+    padding: 0 16px;
+  }
+  .accordion h1 {
+    font-size: 22px;
+  }
+  .faq-section__left {
+    width: 100%;
+    padding: 30px;
+  }
+  .faq-section__right {
+    width: 100%;
+    padding: 20px;
+  }
+} */
+/* //Custom Accordion Style */
+.accordion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 610px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgb(23,57,104);
+}
+.item{
+  background-color: rgb(23,57,104);
+  margin-bottom: 5px;
+  padding: 20px 20px;
+}
+.title{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content{
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition:  all 0.5s cubic-bezier(0,1,0,1);
+}
+.question-heading{
+  font-size: 18px;
+}
+.content.show{
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+.horizontal-line{
+  color: white;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  max-width: 991px;
+  min-width: 320px;
+}
+.accordion h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid rgb(236, 235, 235);
+  border-radius: none;
+  color: #fff;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  transition: all 0.3s ease;
+}
+.accordion-item .accordion-item-title {
+  position: relative;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.accordion-item-title:hover,
+.accordion-item input[type='checkbox']:checked ~ .accordion-item-title {
+  background: #456084b2 !important;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.accordion-item-title:active {
+  color: #fff;
+  background: #516e95b6 !important;
+}
+.accordion-item .accordion-item-desc {
+  display: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #3b0707;
+  padding: 10px 30px 20px;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out; /* Add transition */
+}
+.accordion-item input[type='checkbox'] {
+  position: absolute;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.accordion-item input[type='checkbox']:checked ~ .accordion-item-desc {
+  display: block;
+  max-height: 250px;
+  transition: max-height 0.3s ease-in-out; /* Add transition */
+}
+.accordion-item
+  input[type='checkbox']:checked
+  ~ .accordion-item-title
+  .icon:after {
+  content: '-';
+  font-size: 20px;
+}
+.accordion-item input[type='checkbox'] ~ .accordion-item-title .icon:after {
+  content: '+';
+  font-size: 20px;
+}
+.accordion-item:first-child {
+  margin-top: 0;
+}
+.accordion-item:last-child {
+  border: 0;
+}
+.accordion-item .icon {
+  margin-left: 14px;
+}
+@media (max-width: 768px) {
+  .accordion {
+    padding: 0 16px;
+  }
+  .accordion h1 {
+    font-size: 22px;
+  }
+  .faq-section__left {
+    width: 100%;
+    padding: 30px;
+  }
+  .faq-section__right {
+    width: 100%;
+    padding: 20px;
+  }
+}
+.accordion-k {
+  width: 510px;
+  background-color: white;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

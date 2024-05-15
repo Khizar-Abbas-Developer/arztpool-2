@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.set{
+    display: flex;
+    flex-direction: column;
+  }
+  .label-span{
+    font-size: 14px;
+    color: #808080;
+  }
+  .datep{
+    width: 170px;
+    border: none;
+    border-radius: none;
+  }
+  .datep:focus-within{
+    width: 470px;
+    border: none;
+    border-bottom: 2px solid #ffbf00;
+  }
+  @media (max-width: 1380px) {
+    .datep{
+        width: 170px;
+        border: none;
+        border-radius: none;
+      } 
+  }

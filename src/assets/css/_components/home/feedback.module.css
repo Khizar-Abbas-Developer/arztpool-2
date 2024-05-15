@@ -1,0 +1,39 @@
+.carouselContainer {
+    background-color: #fff;
+}
+
+.carousel {
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel .carouselCaption {
+    position: static;
+}
+
+.carousel .carouselItem {
+    align-items: center;
+}
+
+.title {
+    color: "#173968";
+    font-size: 20px;
+}
+
+.feedback {
+    font-size: 18px;
+    color: "#173968";
+}
+
+.userName {
+    font-size: 16px;
+    font-weight: 500;
+    color: "#173968";
+}
+
+.userAddress {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-5);
+}

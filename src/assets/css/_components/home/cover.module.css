@@ -1,0 +1,12 @@
+.cover {
+  padding: 147px 0px;
+  background-color: #e8f8fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}

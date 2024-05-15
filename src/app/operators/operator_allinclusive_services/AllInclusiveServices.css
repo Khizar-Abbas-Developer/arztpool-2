@@ -1,0 +1,98 @@
+.users-container {
+  box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+  margin-top: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(186, 176, 176);
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: black;
+}
+
+.user-table-container {
+  box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+  margin-top: 8px;
+  background-color: white;
+  display: block;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(186, 176, 176);
+  flex-direction: column;
+  color: black;
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  /* Add space between the flex items */
+  align-items: center;
+  row-gap: 60px;
+  column-gap: 60px;
+}
+
+/* //input styling starting */
+
+/* //input styling ending */
+/* //select tag styling */
+
+.button-containers {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.btn {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(237, 109, 5);
+  color: white;
+}
+
+/* //table style */
+/* CSS for making the table heading font smaller */
+.user-table-container table th {
+  font-size: 12px;
+  /* Adjust the font size as needed */
+}
+
+.table-heading {
+  border: 1px solid black;
+}
+
+.first-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.set {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-span {
+  font-size: 14px;
+  color: #808080;
+}
+
+.datep {
+  width: 482px;
+  border: none;
+  border-radius: none;
+}
+
+.datep:focus-within {
+  border: none;
+  border-bottom: 2px solid #ffbf00;
+}

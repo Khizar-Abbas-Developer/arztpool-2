@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sub-containers {
+    width: 385px;
+    margin-right: 25px;
+}
+
+.sub-containers-1 {
+    width: 545px;
+    margin-right: 25px;
+}
+
+.sub-containers-2 {
+    width: 285px;
+    margin-right: 25px;
+}
+
+.sub-containers-3 {
+    width: 100%;
+}
+
+.entryarea {
+    position: relative;
+    height: 0px;
+    line-height: 30px;
+    line-height: initial;
+}
+
+.labelline {
+    position: absolute;
+    font-size: 1em;
+    color: #f0ffff;
+    padding: 0 10px;
+    margin: 0 5px;
+    background: white;
+    color: rgb(146, 143, 143);
+    transition: 0.2s ease;
+}
+
+.input-item-k {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 1.3em;
+    padding: 0 20px;
+    line-height: 45px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgb(198, 194, 194);
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.input-item-k:focus,
+.input-item-k:valid {
+    color: black;
+    border-bottom: 2px solid rgb(237, 109, 5);
+}
+
+.input-item-k:focus+.labelline,
+.input-item-k:valid+.labelline {
+    font-size: 0.8em;
+    color: rgb(60, 59, 59);
+    height: 10px;
+    line-height: 30px;
+    padding: 0 12px;
+    transform: translate(-21px, -16px) scale(0.88);
+    z-index: 11111;
+}
+
+/* /////////date picker css */
+
+.set {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-spans {
+    font-size: 14px;
+    color: #808080;
+}
+
+.datep {
+    width: 380px;
+    border: none;
+    border-radius: none;
+}

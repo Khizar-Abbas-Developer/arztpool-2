@@ -1,0 +1,85 @@
+.sixth-home-section .date {
+    font-size: 1rem;
+    color: #1db0d9;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .sixth-home-section .time {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .sixth-home-section .location {
+    font-weight: 500;
+    height: 40px;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+  }
+  .sixth-home-section .price-range {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .sixth-home-section .price-range span {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: 8px;
+  }
+  .sixth-home-section .text-sm {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .sixth-home-section-body a {
+    text-decoration: unset;
+    color: #25497b;
+  }
+  .sixth-home-section-body svg {
+    width: 1rem;
+  }
+  .sixth-home-section-body .card {
+    border: 1px solid #305589;
+    width: 16.5rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px #e7ebef;
+  }
+  .sixth-home-section-body .card:hover {
+    border: 1px solid #ed6d05;
+    cursor: pointer;
+  }
+  .sixth-home-section-body .card:hover .card-body a {
+    color: #ed6d05;
+  }
+  .sixth-home-section .instant {
+    background-color: #173968;
+  }
+  .sixth-home-section .instant p {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+    margin: 0;
+  }
+  .sixth-home-section .info-row .v-icon {
+    width: 0.6rem;
+    color: #fff;
+    margin-right: 8px;
+  }
+  .sixth-home-section .map-container {
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #999a9c;
+    overflow: hidden;
+    padding-bottom: 52.25%;
+    position: relative;
+    height: 0;
+  }
+  .sixth-home-section .map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  

@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar-container {
+  height: 110px;
+  box-shadow: none !important;
+  z-index: 1111;
+  width: 100vw;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  color: black;
+  align-items: center;
+}
+
+.menu-and-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.second-section-container {
+  display: flex;
+  gap: 50px;
+}
+
+.header-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid blue;
+  padding: 10px 19px 10px 19px;
+  border-radius: 3px;
+}
+
+.link-container {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.modal-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.navLinksContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: black;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.two-separate-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.k-name {
+  color: gray;
+}
+
+.operator-text-btn-s {
+  background-color: transparent;
+  border: none;
+  color: black;
+}

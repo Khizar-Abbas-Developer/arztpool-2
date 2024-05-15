@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: column;
+  /* height: 1000px !important; */
+  padding: 40px 85px 30px 97px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  /* height: 120vh; */
+  /* height: 25vh; */
+}
+
+.items {
+  background-color: white;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titles {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content {
+  color: black;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  padding-top: -20px;
+  padding-bottom: -10px;
+}
+
+.question-heading {
+  font-size: 18px;
+}
+
+.horizontal-line {
+  color: white;
+}
+
+.radio-first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-paragraph {
+  color: black;
+}
+
+.form-check-input {
+  border: 1px solid rgb(141, 135, 135);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* //form one radio styling */
+.form-one-radio {
+  margin-top: 30px;
+}
+
+.form-one-text-1 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #173968;
+}
+
+.form-one-text-2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #173968;
+  font-weight: 600;
+}
+
+/* //form two radio styling */
+.form-two-radio {
+  margin-top: 30px;
+}
+
+.form-two-text-1 {
+  font-size: 9.6px;
+  letter-spacing: 0.4px;
+  color: #173968;
+  margin-top: -30px;
+  padding: 0 20px;
+}
+
+.form-check-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select-containerst{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.email-input-container{
+  margin: 10px;
+}

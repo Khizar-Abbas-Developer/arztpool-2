@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-contents22 {
+    position: relative;
+    background-color: white;
+    padding: 6px 38px 36px 38px;
+    width: 60%;
+    max-height: 75%;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    gap: 10px;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.close:hover {
+    color: orange;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
+/* //content styling of the Modal is starting here */
+.modal-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-container {
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+}
+
+.heading-container h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+    color: #173968;
+}
+
+.checkInput {
+    display: flex;
+}
+
+.major-btn-and-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    align-items: center;
+}
+
+.forgot-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.forgot-container span {
+    color: #34AACA;
+}
+
+.ending-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #173968;
+}
+
+.register-btn-container {
+    padding: 20px 0 40px 0;
+}
+
+.register-btn-container button {
+    padding: 10px 32px 10px 32px;
+    border-radius: 3px;
+    background-color: #173968;
+    color: white;
+    border: none;
+}
+
+.btn-1-s {
+    padding: 10px 32px 10px 32px;
+    border-radius: 3px;
+    background-color: #ED6D05;
+    color: white;
+    border: none;
+}
+
+.checkInput-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cross-icon {
+    font-size: 12px;
+}
+
+.special-spans {
+    color: #34AACA;
+}
+
+.btn-2 {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(237, 109, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    row-gap: 20px;
+}
+
+.entryareak {
+    position: relative;
+    height: 0px;
+    line-height: 30px;
+    line-height: initial;
+}
+
+.input-item-kk {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 1.3em;
+    padding: 0 20px;
+    line-height: 45px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgb(198, 194, 194);
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.labelline {
+    position: absolute;
+    font-size: 1em;
+    color: #f0ffff;
+    padding: 0 10px;
+    margin: 0 5px;
+    background: white;
+    color: rgb(146, 143, 143);
+    transition: 0.2s ease;
+}
+
+.flex {
+    display: flex;
+    margin-right: 20px;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.button {
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 8px;
+    /* Adjust border-radius to match rounded-md */
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ED6D05;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-classical {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Equivalent to shadow-md */
+    margin-bottom: 20px;
+}

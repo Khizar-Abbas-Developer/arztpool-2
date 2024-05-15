@@ -1,0 +1,13 @@
+.small-heading{
+    font-weight: 700;
+}
+.large-heading{
+    font-weight: 600;
+}
+.location-container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}

@@ -1,0 +1,85 @@
+.users-container {
+  box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+  margin-top: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 18px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(186, 176, 176);
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: auto;
+}
+.user-table-container {
+  box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+  margin-top: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(186, 176, 176);
+  flex-direction: column;
+}
+.over-services {
+  width: 100%;
+}
+.input-containers {
+  display: flex;
+  justify-content: flex-start; /* Add space between the flex items */
+  align-items: center;
+}
+
+.button-containers {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  width: 100%;
+  margin-top: 30px;
+}
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn-2 {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(237, 109, 5);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  row-gap: 20px;
+}
+
+.plus-icons {
+  margin-right: 10px;
+}
+.first-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.set {
+  display: flex;
+  flex-direction: column;
+}
+.datep {
+  width: 482px;
+}

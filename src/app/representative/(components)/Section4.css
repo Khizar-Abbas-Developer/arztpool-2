@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ribbon {
+    position: relative;
+    width: 17.5rem;
+    height: 1.4rem;
+    border: none;
+    top: 4px;
+    left: -0.8rem;
+    background-color: rgb(23, 57, 104);
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 9px;
+    color: white;
+    align-items: center;
+    border-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    z-index: 1;
+    /* Increase z-index */
+}
+
+.ribbon::before,
+.ribbon::after {
+    content: "";
+    position: absolute;
+    width: 0.71rem;
+    height: 0.8rem;
+    margin-left: 1px;
+    left: 0.09rem;
+    top: 84.9%;
+    transform: translateY(-60%) rotate(15deg);
+    /* rotate: 45deg; */
+    border: 1px solid rgb(23, 57, 104);
+    border-top-left-radius: 0rem;
+    /* border-top-right-radius: 2rem; */
+    /* border-bottom-left-radius: 2rem; */
+    /* border-bottom-right-radius: 2rem; */
+    z-index: -1;
+    background-color: rgb(23, 57, 104);
+}
+
+/* .ribbon::before{
+    background-color: rgb(23,57,104);
+}
+.ribbon::after{
+    background-color: rgb(23,57,104);
+    border-top-left-radius: 1rem;
+} */
+
+.custom-hm:hover {
+    border: 2px solid rgb(237, 109, 5);
+    cursor: pointer;
+}
+
+.custom-hm:hover .ribbon {
+    background: rgb(237, 109, 5);
+}
+
+.custom-hm:hover .ribbon::after {
+    background: rgb(237, 109, 5);
+    border: 2px solid rgb(237, 109, 5);
+}

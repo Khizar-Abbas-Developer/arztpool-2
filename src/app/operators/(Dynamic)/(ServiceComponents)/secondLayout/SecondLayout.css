@@ -1,0 +1,99 @@
+.users-container-servicest-main {
+    box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+    padding-left: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    z-index: 0;
+    margin-bottom: 110px;
+}
+
+.users-container-servicest {
+    box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+    flex-direction: column;
+    height: 170px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 227, 227);
+    z-index: 0;
+}
+
+.sub-containerst-1 {
+    width: 100%;
+    margin-right: 25px;
+    margin-top: 4px;
+    margin-bottom: 190px;
+    z-index: 999;
+}
+
+.entryarea-1 {
+    position: relative;
+    height: 120px;
+    line-height: 30px;
+    line-height: initial;
+}
+
+.labelline {
+    position: absolute;
+    font-size: 1em;
+    color: #f0ffff;
+    padding: 0 10px;
+    margin: 0 5px;
+    background: white;
+    color: rgb(146, 143, 143);
+    transition: 0.2s ease;
+    z-index: 999999;
+}
+
+.input-item-kl {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 1em;
+    padding: 0 20px;
+    line-height: 30px;
+    height: 165px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgb(198, 194, 194);
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+
+.input-item-kl:focus,
+.input-item-kl:valid {
+    color: black;
+    /* border-bottom: 2px solid rgb(237, 109, 5); */
+    height: 165px;
+}
+
+.input-item-kl:focus+.labelline,
+.input-item-kl:valid+.labelline {
+    font-size: 0.8em;
+    color: rgb(60, 59, 59);
+    height: 10px;
+    line-height: 30px;
+    padding: 0 12px;
+    transform: translate(-21px, -16px) scale(0.88);
+    z-index: 11111;
+}
+
+.heading-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,15 @@
+.marque {
+    background-color: "#173968";
+}
+
+.title {
+    color: var(--color-1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.marqueetext {
+    font-size: 16px;
+    line-height: 24px;
+}

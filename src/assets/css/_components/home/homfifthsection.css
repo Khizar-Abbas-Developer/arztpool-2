@@ -1,0 +1,62 @@
+.fifth-home-section-body {
+  gap: 20px;
+}
+.fifth-section-card {
+  width: 350px;
+}
+.fifth-home-section-body .icon-container .v-icon {
+  width: 64px;
+  color: #1fb9e5;
+}
+.fifth-home-section-body .badge {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -24px;
+  bottom: -10px;
+  color: #fff;
+  font-size: 1.25rem;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background-color: #173968;
+}
+.fifth-section-card-text .title {
+  color: #173968;
+}
+.fifth-section-card-text .text {
+  color: #2e558b;
+  font-size: 0.899rem;
+  line-height: 20px;
+  font-weight: 400;
+}
+.fifth-home-section-btn {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 8px 40px;
+  background-color: #ed6d05;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}
+.fifth-home-section-btn:hover {
+  background-color: #c95e19;
+}
+/* sixth section  */
+.home-section-teaser {
+  color: #ed6d05;
+  font-size: 1.25rem;
+  line-height: 28px;
+  padding-top: 16px;
+  margin-bottom: 12px;
+
+}
+.home-section-heading {
+  font-size: 2rem;
+  line-height: 40px;
+  margin-bottom: 40px;
+}

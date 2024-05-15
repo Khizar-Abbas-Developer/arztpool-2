@@ -1,0 +1,28 @@
+.user-table-containerst {
+    box-shadow: 1px 1px 4px 0 rgba(209, 167, 81, 0.2);
+    margin-top: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(186, 176, 176);
+    flex-direction: column;
+    color: black;
+}
+.second-containerst {
+    box-shadow: 2px 2px 4px inset 0 rgba(209, 167, 81, 0.2);
+    margin-top: 24px;
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    /* Adjust the value as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(186, 176, 176);
+}
