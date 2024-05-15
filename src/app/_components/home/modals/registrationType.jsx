@@ -1,7 +1,8 @@
 'use client'
 import { ImCross } from 'react-icons/im'
 import React, { useEffect, useState } from 'react'
-import '@/assets/css/_components/home/modals/registerType.css';
+import "../../css/registerType.css";
+// import '@/assets/css/_components/home/modals/registerType.css';
 import Input from '@/app/_components/Input'
 import Modal2 from '@/app/_components/home/modals/registrationTypeText'
 import Sample from './login'

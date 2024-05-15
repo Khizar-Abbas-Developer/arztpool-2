@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import '@/assets/css/_components/home/modals/registrationTypeText.css';
+// import '@/assets/css/_components/home/modals/registrationTypeText.css';
+import "../../css/registrationTypeText.css";
 import Input from '@/app/_components/Input';
 import { ImCross } from 'react-icons/im'
 import Link from 'next/link'

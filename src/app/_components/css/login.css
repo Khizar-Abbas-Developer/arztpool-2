@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.modal-content {
+    position: relative;
+    background-color: white;
+    padding: 6px 38px 36px 38px;
+    width: 40%;
+    max-height: 98%;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+.modal-content-containerregister {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.major-btn-and-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    align-items: center;
+}
+
+.btn-1-s {
+    padding: 10px 32px 10px 32px;
+    border-radius: 3px;
+    background-color: #ED6D05;
+    color: white;
+    border: none;
+}
+
+.forgot-containers {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #173968;
+    font-weight: 600;
+}
+
+.ending-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #173968;
+}
+
+.special-spans {
+    color: #34AACA;
+}

@@ -1,5 +1,5 @@
 'use client'
-import '@/assets/css/_components/home/modals/login.css'
+import '../../css/login.css';
 import React, { useState } from 'react'
 import axios from 'axios'
 import {

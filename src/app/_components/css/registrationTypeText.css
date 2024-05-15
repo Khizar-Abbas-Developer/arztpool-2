@@ -1,0 +1,95 @@
+.modal-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  z-index: 999999;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-contents {
+  position: relative;
+  background-color: white;
+  padding: 6px 38px 6px 38px;
+  width: 70%;
+  height: 435px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  gap: 10px;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.close:hover {
+  color: orange;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+/* //content styling of the Modal is starting here */
+.modal-content-containers {
+  padding: 70px 23px 37px 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* Ensure the container takes the full height */
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+}
+
+.heading-texts {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #173968;
+}
+
+.paragraph-texts {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #173968;
+}
+
+.btns-1 {
+  padding: 11px 30px 11px 30px;
+  background-color: #ed6d05;
+  border-radius: 3px;
+  border: none;
+}
+
+.btns-2 {
+  padding: 11px 30px 11px 30px;
+  background-color: #ed6d05;
+  border-radius: 3px;
+  border: none;
+}
+
+.cross-icon {
+  font-size: 12px;
+}
