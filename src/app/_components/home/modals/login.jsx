@@ -72,7 +72,10 @@ const Sample = ({ clickFunctionProp }) => {
   }
   return (
     <>
-      <div className="modal-content" style={{ width: `100%` }}>
+      <div
+        className="modal-content"
+        style={{ width: `100%`, backgroundColor: 'white' }}
+      >
         <form
           className="modal-content-containerregister"
           onSubmit={handleSubmit}
