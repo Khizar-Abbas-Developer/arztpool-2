@@ -2,8 +2,8 @@
 
 import './AllInclusiveServices.css'
 import Input from '@/app/_components/Input'
-import AllInclusiveServicesTable from '@/app/operators/(components)/page';
-import Table2 from '@/app/operators/(components)/ServicesTable';
+import AllInclusiveServicesTable from '@/app/operators/(components)/allInclusiveServicesTable'
+import Table2 from '@/app/operators/(components)/ServicesTable'
 import React from 'react'
 
 //datepicker imports start
