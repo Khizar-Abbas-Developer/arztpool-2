@@ -18,7 +18,7 @@ const Sample = ({ clickFunctionProp }) => {
   const dispatch = useDispatch()
   const router = useRouter()
   const url = process.env.NEXT_PUBLIC_BACK_END_API_URL
-  const loginUrl = `/api/user/v1/login`
+  const loginUrl = `${url}/api/user/v1/login`
   // State object to hold the values of the input fields
   const [data, setData] = useState({
     email: '',
